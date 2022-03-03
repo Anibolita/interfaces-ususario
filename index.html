@@ -27,12 +27,22 @@
 
             <p>
                 <label for="correo">e-mail:</label>
-                <input type="text" name="correo" id="correo" title='Introduce tu correo electronico' autocomplete="email"/>
+                <input type="email" name="correo" id="correo" title='Introduce tu correo electronico' autocomplete="email"/>
             </p>
 
             <p>
                 <label for="telefono">Teléfono:</label>
-                <input type="text" name="telefono" id="telefono" title='Introduce tu telefono' autocomplete="tel-area-code"/>
+                <input type="tel" name="telefono" id="telefono" title='Introduce tu telefono' autocomplete="tel"/>
+            </p>
+
+            <p>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" name="contrasena" id="contrasena" title='Introduce tu contraseña' autocomplete="current-password"/>
+            </p>
+
+            <p>
+                <label for="color">Color favorito:</label>
+                <input type="color" name="color" id="color" title='Introduce tu color favorito'/>
             </p>
 
             <input type="submit" value="Submit" />
